@@ -3,12 +3,17 @@
 
 ## 显示成功信息
 ```objc
-		[ZCStatusBarHUD showSuccess:@"加载成功"];
+	[ZCStatusBarHUD showSuccess:@"加载成功"];
 ```
 
 ## 显示失败信息
 ```objc
         [ZCStatusBarHUD showError:@"加载失败"];
+```
+
+## 显示普通信息
+```objc
+    	[ZCStatusBarHUD showMessage:@"没有事情做的哦" image:nil];
 ```
 
 ## 显示加载信息
@@ -18,5 +23,5 @@
 
 ## 隐藏
 ```objc
-    [ZCStatusBarHUD hide];
+	 [ZCStatusBarHUD hide];
 ```
